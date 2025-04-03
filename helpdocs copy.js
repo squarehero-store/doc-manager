@@ -121,7 +121,7 @@ async function init() {
 // Load plugins from JSON file
 async function loadPlugins() {
     try {
-        const response = await fetch('https://cdn.jsdelivr.net/gh/squarehero-store/doc-manager@0/plugins.json');
+        const response = await fetch('/plugins.json');
         
         if (!response.ok) {
             throw new Error(`Failed to load plugins.json (${response.status}: ${response.statusText})`);
