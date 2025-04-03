@@ -1163,6 +1163,6 @@ textarea.form-control {
 }
 
 /*Hide announcement bar*/
-.sqs-announcement-bar-url {
+.sqs-announcement-bar {
     display:none!important
 }
