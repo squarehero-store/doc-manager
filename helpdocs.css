@@ -443,6 +443,7 @@ textarea.form-control {
 .panel-title {
     font-size: 20px;
     font-weight: 500;
+    color:white!important;
 }
 
 .close-button {
@@ -479,6 +480,12 @@ textarea.form-control {
 
 .doc-content {
     line-height: 1.6;
+    padding:0!important;
+    background:none!important
+}
+
+.doc-content:before {
+    content:unset!important;
 }
 
 .panel-actions {
