@@ -266,7 +266,7 @@ const RichTextEditor = (function () {
             text: 'Image',
             tooltip: 'Insert image from URL',
             onAction: function () {
-                // Open a dialog to input image URL
+                // Open a dialog to input the image URL
                 editor.windowManager.open({
                     title: 'Insert Image',
                     body: {

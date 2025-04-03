@@ -654,7 +654,7 @@ function showToast(message, type = 'info') {
     }, 3000);
 }
 
-// Add event listeners
+// Add the event listeners
 function addEventListeners() {
     // New document button
     elements.newDocButton.addEventListener('click', openNewDocPanel);
