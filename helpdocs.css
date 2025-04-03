@@ -336,7 +336,7 @@ h1, h2, h3, h4 {
     display: block;
 }
 
-/* Form Styles */
+/* The Form Styles */
 .form-panel {
     background-color: var(--white);
     border-radius: var(--border-radius);
