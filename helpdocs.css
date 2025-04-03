@@ -93,7 +93,7 @@ h1 {
     z-index: 3;
 }
 
-.support-button {
+.button.support-button {
     background: var(--darkblue) !important;
     z-index: 1;
     display: inline-block;
@@ -247,6 +247,11 @@ h1 {
     border: none;
 }
 
+/*Disable squarehero site button animation*/
+.button:after {
+    content:unset;
+}
+
 .button-primary {
     background-color: var(--blue);
     color: var(--white);
@@ -312,6 +317,7 @@ h1 {
     font-weight: 600;
     margin-right: 10px;
     flex: 1 0 100%;
+    margin:0!important;
 }
 
 .help-doc-actions {
